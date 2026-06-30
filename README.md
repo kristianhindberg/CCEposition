@@ -58,7 +58,7 @@ All model weight files must be present in the same directory as the script.
 Each patient folder must contain a five- or six-digit number in its name and the following structure:
 
 ```
-OUH CHI (10359) 01 Jan 23/
+SomeText (12345) SomeTextPossibleDate/
     stream/
         *.gfd
         *.gvf
@@ -90,7 +90,7 @@ python CCE_position.py [ARGUMENT]
 
 ```bash
 # Run on a single patient
-python CCE_position.py "path/to/OUH CHI (10359) 01 Jan 23"
+python CCE_position.py "path/to/SomeText (12345) SomeTextPossibleDate"
 
 # Run on all patients in a directory
 python CCE_position.py path/to/patient/data
