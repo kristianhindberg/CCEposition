@@ -1,0 +1,15 @@
+name: cce_position
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.4
+  - matplotlib
+  - pandas
+  - timm
+  - pillow
+  - numpy
